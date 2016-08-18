@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3890D11D658CFB003DAD4A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3890D01D658CFB003DAD4A /* AppKit.framework */; };
+		EC3890D31D658CFB003DAD4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3890D21D658CFB003DAD4A /* Foundation.framework */; };
+		EC3890D71D658CFB003DAD4A /* GHGreatTools.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = EC3890D61D658CFB003DAD4A /* GHGreatTools.xcscheme */; };
+		EC3890DA1D658CFB003DAD4A /* GHGreatTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3890D91D658CFB003DAD4A /* GHGreatTools.m */; };
+		EC3890DD1D658CFB003DAD4A /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3890DC1D658CFB003DAD4A /* NSObject_Extension.m */; };
+		EC5FF4F11D6596FE00673988 /* GHMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5FF4EF1D6596FE00673988 /* GHMainWindow.m */; };
+		EC5FF4F21D6596FE00673988 /* GHMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5FF4F01D6596FE00673988 /* GHMainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC3890CD1D658CFB003DAD4A /* GHGreatTools.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHGreatTools.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3890D01D658CFB003DAD4A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		EC3890D21D658CFB003DAD4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		EC3890D61D658CFB003DAD4A /* GHGreatTools.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = GHGreatTools.xcscheme; path = GHGreatTools.xcodeproj/xcshareddata/xcschemes/GHGreatTools.xcscheme; sourceTree = SOURCE_ROOT; };
+		EC3890D81D658CFB003DAD4A /* GHGreatTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHGreatTools.h; sourceTree = "<group>"; };
+		EC3890D91D658CFB003DAD4A /* GHGreatTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHGreatTools.m; sourceTree = "<group>"; };
+		EC3890DB1D658CFB003DAD4A /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		EC3890DC1D658CFB003DAD4A /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		EC3890DE1D658CFB003DAD4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5FF4EE1D6596FE00673988 /* GHMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHMainWindow.h; sourceTree = "<group>"; };
+		EC5FF4EF1D6596FE00673988 /* GHMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHMainWindow.m; sourceTree = "<group>"; };
+		EC5FF4F01D6596FE00673988 /* GHMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GHMainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3890CB1D658CFB003DAD4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3890D11D658CFB003DAD4A /* AppKit.framework in Frameworks */,
+				EC3890D31D658CFB003DAD4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC3890C41D658CFB003DAD4A = {
+			isa = PBXGroup;
+			children = (
+				EC3890D41D658CFB003DAD4A /* GHGreatTools */,
+				EC3890CF1D658CFB003DAD4A /* Frameworks */,
+				EC3890CE1D658CFB003DAD4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3890CE1D658CFB003DAD4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3890CD1D658CFB003DAD4A /* GHGreatTools.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3890CF1D658CFB003DAD4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC3890D01D658CFB003DAD4A /* AppKit.framework */,
+				EC3890D21D658CFB003DAD4A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC3890D41D658CFB003DAD4A /* GHGreatTools */ = {
+			isa = PBXGroup;
+			children = (
+				EC3890D81D658CFB003DAD4A /* GHGreatTools.h */,
+				EC3890D91D658CFB003DAD4A /* GHGreatTools.m */,
+				EC3890DB1D658CFB003DAD4A /* NSObject_Extension.h */,
+				EC3890DC1D658CFB003DAD4A /* NSObject_Extension.m */,
+				EC3890DE1D658CFB003DAD4A /* Info.plist */,
+				EC3890D51D658CFB003DAD4A /* Supporting Files */,
+				EC5FF4EE1D6596FE00673988 /* GHMainWindow.h */,
+				EC5FF4EF1D6596FE00673988 /* GHMainWindow.m */,
+				EC5FF4F01D6596FE00673988 /* GHMainWindow.xib */,
+			);
+			path = GHGreatTools;
+			sourceTree = "<group>";
+		};
+		EC3890D51D658CFB003DAD4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3890D61D658CFB003DAD4A /* GHGreatTools.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3890CC1D658CFB003DAD4A /* GHGreatTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3890E11D658CFB003DAD4A /* Build configuration list for PBXNativeTarget "GHGreatTools" */;
+			buildPhases = (
+				EC3890C91D658CFB003DAD4A /* Sources */,
+				EC3890CA1D658CFB003DAD4A /* Resources */,
+				EC3890CB1D658CFB003DAD4A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHGreatTools;
+			productName = GHGreatTools;
+			productReference = EC3890CD1D658CFB003DAD4A /* GHGreatTools.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3890C51D658CFB003DAD4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ApesStudio;
+				TargetAttributes = {
+					EC3890CC1D658CFB003DAD4A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EC3890C81D658CFB003DAD4A /* Build configuration list for PBXProject "GHGreatTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC3890C41D658CFB003DAD4A;
+			productRefGroup = EC3890CE1D658CFB003DAD4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3890CC1D658CFB003DAD4A /* GHGreatTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3890CA1D658CFB003DAD4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3890D71D658CFB003DAD4A /* GHGreatTools.xcscheme in Resources */,
+				EC5FF4F21D6596FE00673988 /* GHMainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3890C91D658CFB003DAD4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3890DA1D658CFB003DAD4A /* GHGreatTools.m in Sources */,
+				EC3890DD1D658CFB003DAD4A /* NSObject_Extension.m in Sources */,
+				EC5FF4F11D6596FE00673988 /* GHMainWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC3890DF1D658CFB003DAD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		EC3890E01D658CFB003DAD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		EC3890E21D658CFB003DAD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = GHGreatTools/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.GHGreatTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		EC3890E31D658CFB003DAD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = GHGreatTools/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.GHGreatTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3890C81D658CFB003DAD4A /* Build configuration list for PBXProject "GHGreatTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3890DF1D658CFB003DAD4A /* Debug */,
+				EC3890E01D658CFB003DAD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3890E11D658CFB003DAD4A /* Build configuration list for PBXNativeTarget "GHGreatTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3890E21D658CFB003DAD4A /* Debug */,
+				EC3890E31D658CFB003DAD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC3890C51D658CFB003DAD4A /* Project object */;
+}
