@@ -39,6 +39,8 @@
             break;
         case 4:
             url = @"http://www.bejson.com/enc/sha/";
+        case 5:
+            url = @"http://www.atool.org/httptest.php";
         default:
             break;
     }
@@ -89,6 +91,13 @@
     {
         NSArray* removeClss = @[@"navbar navbar-default",@"media",@"panel-footer",@"panel-heading"];
         [self removeClss:removeClss sender:self.webView];
+    }
+    else if(self.seg.selectedSegment == 5)
+    {
+        NSArray* removeClss = @[@"new_tools_list",@"divider",@"explainer",@"navbar fixed",@"oauth_login",@"table table-bordered content-table",@"menu_list",@"tool",@"site-nav",@"donate_qrcode",@"row footer",@"ds-thread",@"span five bdsharebuttonbox",@"span seven",@"adsbygoogle"];
+        [self removeClss:removeClss sender:self.webView];
+        NSArray* removeIds = @[@"qrcode_ad"];
+        [self removeIDs:removeIds sender:self.webView];
     }
 }
 
