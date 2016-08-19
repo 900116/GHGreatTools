@@ -43,6 +43,9 @@
         case 5:
             url = @"http://www.atool.org/httptest.php";
             break;
+        case 6:
+            url = @"http://tool.oschina.net/regex/";
+            break;
         default:
             break;
     }
@@ -64,6 +67,17 @@
         [js appendString:@"document.getElementById(\""];
         [js appendString:idSt];
         [js appendString:@"\").remove();"];
+    }
+    [sender stringByEvaluatingJavaScriptFromString:js];
+}
+
+-(void)removeSuperS:(NSArray*)ids sender:(WebView*)sender
+{
+    NSMutableString* js = [NSMutableString new];
+    for (NSString* idSt in ids) {
+        [js appendString:@"document.getElementById(\""];
+        [js appendString:idSt];
+        [js appendString:@"\").parentNode.remove();"];
     }
     [sender stringByEvaluatingJavaScriptFromString:js];
 }
@@ -100,6 +114,15 @@
         [self removeClss:removeClss sender:self.webView];
         NSArray* removeIds = @[@"qrcode_ad"];
         [self removeIDs:removeIds sender:self.webView];
+    }
+    else if(self.seg.selectedSegment == 6)
+    {
+        NSArray* removeClss = @[@"nav nav-list well",@"header",@"toolName",@"bshareDiv",@"adsbygoogle"];
+        [self removeClss:removeClss sender:self.webView];
+        NSArray* removeIds = @[@"footer",];
+        [self removeIDs:removeIds sender:self.webView];
+        NSArray* removeSupers = @[@"logo"];
+        [self removeSuperS:removeSupers sender:self.webView];
     }
 }
 

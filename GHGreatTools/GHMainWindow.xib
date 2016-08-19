@@ -18,26 +18,26 @@
         <window title="GreatTool" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="196" y="240" width="690" height="341"/>
+            <rect key="contentRect" x="196" y="240" width="745" height="341"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
             <view key="contentView" id="se5-gp-TjO">
-                <rect key="frame" x="0.0" y="0.0" width="690" height="341"/>
+                <rect key="frame" x="0.0" y="0.0" width="745" height="341"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <webView translatesAutoresizingMaskIntoConstraints="NO" id="WaC-ns-xih">
-                        <rect key="frame" x="0.0" y="0.0" width="690" height="0.0"/>
+                        <rect key="frame" x="0.0" y="0.0" width="745" height="0.0"/>
                         <webPreferences key="preferences" defaultFontSize="16" defaultFixedFontSize="13" minimumFontSize="0">
                             <nil key="identifier"/>
                         </webPreferences>
                     </webView>
                     <webView translatesAutoresizingMaskIntoConstraints="NO" id="HCI-ZQ-TrD">
-                        <rect key="frame" x="0.0" y="0.0" width="690" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="745" height="320"/>
                         <webPreferences key="preferences" defaultFontSize="16" defaultFixedFontSize="13" minimumFontSize="0">
                             <nil key="identifier"/>
                         </webPreferences>
                     </webView>
                     <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yXt-FH-Z7v">
-                        <rect key="frame" x="-2" y="318" width="694" height="24"/>
+                        <rect key="frame" x="-2" y="318" width="749" height="24"/>
                         <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="8rZ-4G-Br6">
                             <font key="font" metaFont="system"/>
                             <segments>
@@ -47,6 +47,7 @@
                                 <segment label="md5"/>
                                 <segment label="sha1"/>
                                 <segment label="get/post"/>
+                                <segment label="regex"/>
                             </segments>
                         </segmentedCell>
                     </segmentedControl>
