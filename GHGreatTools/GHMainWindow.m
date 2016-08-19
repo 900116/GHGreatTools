@@ -39,8 +39,10 @@
             break;
         case 4:
             url = @"http://www.bejson.com/enc/sha/";
+            break;
         case 5:
             url = @"http://www.atool.org/httptest.php";
+            break;
         default:
             break;
     }
